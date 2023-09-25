@@ -1,3 +1,19 @@
+#logo {
+    width: 15vw;
+    border: none;
+    margin: 0;
+}
+
+h1 {
+    font-family: Pokemon Solid;
+    color: #FFCC00;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #225AAA;
+    letter-spacing: 6px;
+    font-size: 2vw;
+    margin-top: -2.2vw;
+}
+
 img {
     border: 2px solid black;
     margin: 10px;
