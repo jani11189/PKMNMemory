@@ -1,0 +1,19 @@
+img {
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+body {
+    text-align: center;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
