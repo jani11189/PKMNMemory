@@ -33,3 +33,21 @@ body {
     text-align: center;
     width: 600px;
 }
+
+#btn-startgame, #btn-resetgame  {
+    padding: 10px;
+    margin: 5px;
+    font-size: 1vw;
+    font-family: Pokemon Solid;
+    letter-spacing: 3px;
+    color: #FFCC00;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #225AAA;
+    background-color: #FE0801;
+    border-radius: 20%;
+    border-color: #225AAA;
+}
+
+#btn-startgame:hover, #btn-resetgame:hover  {
+    background-color: #fff;
+}
