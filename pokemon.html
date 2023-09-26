@@ -13,11 +13,18 @@
     <div id="main">
         <img src="logo.png" id="logo">
         <h1>MEMORY GAME</h1>
-        <p id="attempts"></p>
+        <p id="attempts">Attempts: 0</p>
+        <p id="timer">00:00</p>
     </div>
     <div>
         <input type="button" value="Start Game" onclick=startGame() id="btn-startgame">
         <input type="button" value="Reset Game" onclick=resetGame() id="btn-resetgame">
+    </div>
+    <div class="winpopup" id="winpopup" onclick="closePopUp()">
+        <div id="container">
+            <img src="professorpikachu.png" id="winpikachu">
+            <p id="winMessage"></p>
+        </div>
     </div>
 </body>
 </html>
